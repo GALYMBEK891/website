@@ -1,0 +1,147 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #e2d7d3, #c58af3);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;    
+    margin: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+  }
+ 
+
+
+/* H1 Styles */
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+a {
+    margin: 0 1em;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #48b666;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 1.1em;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+    display: inline-block;
+}
+
+/* Hover Effect for Links */
+a:hover {
+    background-color: #2f7a46;
+    border: 2px solid #ffffff;
+    text-decoration: underline;
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    transform: translateY(-2px); /* Slight movement on hover */
+    cursor: pointer;
+}
+.education1 {
+  background-color: #c58af3 ;
+  margin: 1em;
+  padding: 12px 20px;
+  border: 2px solid ;
+  border-radius: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+
+
+
+}
+.education1:hover {
+  background-color: #ecd43c;
+  border: 2px solid #84addf;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+  transform: translateY(-2px); /* Slight movement on hover */
+  cursor: pointer;
+}
+
+.work1  {
+  background-color: #c58af3 ;
+  margin: 1em;
+  padding: 12px 20px;
+  border: 2px solid ;
+  border-radius: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+
+}
+.work1:hover {
+  background-color: #ecd43c;
+  border: 2px solid #84addf;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+  transform: translateY(-2px); /* Slight movement on hover */
+  cursor: pointer;
+}
+
+.skills {
+  background-color: #c58af3 ;
+  margin: 1em;
+  padding: 12px 20px;
+  border: 2px solid ;
+  border-radius: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+
+}
+.skills:hover {
+  background-color: #ecd43c;
+  border: 2px solid #84addf;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+  transform: translateY(-2px); /* Slight movement on hover */
+  cursor: pointer;
+}
+.achievements {
+  background-color: #c58af3 ;
+  margin: 1em;
+  padding: 12px 20px;
+  border: 2px solid ;
+  border-radius: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+
+}
+.achievements:active {
+  background-color: #ecd43c;
+  border: 2px solid #84addf;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+  transform: translateY(-2px); /* Slight movement on hover */
+  cursor: pointer;
+}
+
+li{
+  margin: 1em;
+  padding: 5px;
+  color: #2d35a2d5;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(50, 59, 68);
+}

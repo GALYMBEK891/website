@@ -1,0 +1,98 @@
+table{
+    border-collapse: collapse;
+    th {
+        width: 200px;
+        height: 70px;
+        background-color: rgb(230, 142, 213);
+      }
+      td {
+        background-color: #c58af3;
+      }
+    th, td {
+        border: 1px solid #ddd; 
+        padding: 10px;
+      }
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  /* body */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #e2d7d3, #c58af3);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+  }
+ 
+
+
+/* H1 Styles */
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+a {
+    margin: 0 1em;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #48b666;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 1.1em;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+    display: inline-block;
+}
+
+/* Hover Effect for Links */
+a:hover {
+    background-color: #2f7a46;
+    border: 2px solid #ffffff;
+    text-decoration: underline;
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    transform: translateY(-2px); /* Slight movement on hover */
+    cursor: pointer;
+}
+
+/* list */
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+}
+.custom-list li {
+  background: url(data:image/jpeg;base64,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) no-repeat left center; 
+  background-size: 20px; 
+  padding-left: 30px; 
+  margin-bottom: 13px; 
+  line-height: 1.5; 
+  color: #333; 
+}
+.custom-list li:hover {
+  color: #440202;
+  background-color: #fff;
+}
+
+iframe{
+  margin: 20px;
+  padding: 15px;
+  
+}
