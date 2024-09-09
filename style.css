@@ -1,0 +1,128 @@
+
+.h1 {
+    text-shadow: 0 0 20px rgb(11, 3, 11);
+    text-align: center;
+    background-color: aquamarine ;
+    color: rgb(252, 252, 252);
+    padding: 15px;
+    margin: -20px;
+    
+
+}
+a{
+    margin: 6em;
+    padding: 8px;
+    text-decoration: none;
+    color: azure;
+    
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+.div1  {
+    color: rgb(82, 102, 92);
+    text-align: center;
+}
+/* image */
+.image1 {
+    width: 300px;
+    animation-name: fre;
+    animation-duration: 2s;
+transition: transform 3s ease, opacity 1s ease-in; 
+
+}
+
+
+.image1:hover { 
+transform: scale(1.2) rotate(360deg); 
+} 
+
+
+.image1::first-letter { 
+opacity: 100; 
+transition: opacity 1s ease; 
+}
+@keyframes fre { 
+ from { 
+   translate: 200vw 0; 
+   scale: 200% 4; 
+ } 
+
+ to { 
+   translate: 10 10; 
+   scale: 100% 1; 
+ }
+ }
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  /* body */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #e2d7d3, #c58af3);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+
+  }
+ 
+
+
+/* H1 Styles */
+.h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-top: 0px;
+}
+
+
+a {
+  margin: 1em;
+  padding: 12px 20px;
+  text-decoration: none;
+  background-color:#48b666;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  font-size: 1.1em;
+  color: white;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+a:hover  {
+    background-color: #2f7a46;
+    border: 2px solid white;
+    text-decoration: underline;
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    cursor: painter;
+}
+
+
